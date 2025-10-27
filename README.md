@@ -18,7 +18,7 @@ Sistema web desarrollado en Laravel 12 para gestionar citas médicas entre médi
 5. Poblar datos: `php artisan db:seed`
 
 
-**Directorio del código**:
+## Directorio del código
 - `app/Models/`: Contiene los modelos Eloquent (`Medico`, `Paciente`, `Cita`) que mapean las tablas de la base de datos.
 - `database/factories/`: Define factories para generar datos falsos para `medicos`, `pacientes`, y `citas`.
 - `database/migrations/`: Contiene las migraciones que crean las tablas y definen su estructura.
