@@ -21,8 +21,5 @@ Sistema web desarrollado en Laravel 12 para gestionar citas médicas entre médi
 ## Estructura
 - **Tablas**: `medicos`, `pacientes`, `citas`
 - **Relaciones**: Citas vinculadas a médicos y pacientes mediante claves foráneas
-- **Datos**: 100 registros por tabla, con descripciones en español no nulas
+- **Datos**: 100 registros por tabla, con descripciones no nulas
 =======
-# sistema_citas_medicas
-Modelos, migraciones, factorías de entidades médico, paciente y citas médicas usando Laravel 12 y MySQL.
->>>>>>> d77611776271f0bf90304e9b0bf3bcbc3d7a5c77
