@@ -16,6 +16,8 @@ return new class extends Migration
         $table->string('nombre');
         $table->string('email')->unique();
         $table->string('telefono');
+        $table->index('telefono', 'idx_paciente_telefono');
+        $table->comment('Pacientes con teléfono único para contacto rápido');
         $table->timestamps();
     });
 }
