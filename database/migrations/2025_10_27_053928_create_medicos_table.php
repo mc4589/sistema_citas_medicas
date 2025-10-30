@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('nombre');
             $table->string('especialidad');
             $table->string('email')->unique();
+            //Agregar atributos (Sergio Condo)
+            
             $table->timestamps();
         });
     }
