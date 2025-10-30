@@ -11,7 +11,12 @@ class MedicoFactory extends Factory
         $especialidades = [
             'Cardiología', 'Pediatría', 'Dermatología', 'Neurología',
             'Ginecología', 'Traumatología', 'Oftalmología', 'Psiquiatría',
-            'Endocrinología', 'Neumología'
+            'Endocrinología', 'Neumología', 'Medicina Familiar', 'Medicina Interna', 'Cirugía General',
+            'Anestesiología', 'Oncología', 'Urología', 'Otorrinolaringología',
+            'Reumatología', 'Gastroenterología', 'Nefrología',
+            'Infectología', 'Radiología', 'Emergencias Médicas',
+            'Gerontología', 'Obstetricia', 'Hematología', 'Patología Clínica',
+            'Rehabilitación Física', 'Genética Médica'
         ];
 
         return [
